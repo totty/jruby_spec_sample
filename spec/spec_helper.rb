@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 require 'java'
 
-$CLASSPATH << File.expand_path('../../target/classes/', __FILE__)
+$CLASSPATH << File.expand_path('../../classes/', __FILE__)
 
 Dir["#{File.dirname(__FILE__)}/../../lib/*.jar"].each do |jar|
    require jar
